@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>ENG0018 Computer Laboratory — Conference Paper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- styles -->
+    <style>
+      table {
+        font-family: Calibri, sans-serif;
+        border-collapse: collapse;
+        width: 30%;
+      }
+      td, th {
+        border: 1px solid #999999;
+        text-align: left;
+        padding: 10px;
+      }
+      tr:nth-child(even) {
+        background-color: #cc88cc;
+      }
+
+      p {
+        margin: 50px;
+        border: 1px solid olivedrab;
+        padding: 20px;
+      }
+
+      .myslides {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <img src="download.png" alt="Banner" width="1200" height="300">
+      <h1><b>ENG0018 Computer Laboratory 2025/26</b></h1>
+      <h2>Student URN: 6951783</h2>
+      <hr>
+      <h2 style="font-family: Calibri;"><b>Conference Paper: How Stealth Aircraft overcome RADAR</b></h2>
+    </header>
+
+    <main>
+      <h3 id="Abstract">Abstract</h3>
+      <p>
+        This paper discusses the importance of stealth aircraft and how engineers developed ways to reduce the effectiveness of radar on surveillance
+        and combat aircraft, and what compromises engineers make to achieve them. The paper discusses how methods such as specialised shaping of the
+        airframe to reflect radio waves away from their source, and the use of radar absorbent material reduce radar cross section. A central takeaway
+        is how reducing the radar cross section is essential to stealth.
+      </p>
+
+      <!-- Example table to show table styles work -->
+      <table>
+        <thead>
+          <tr><th>Feature</th><th>Effect</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Shaping</td><td>Reduces reflections back to radar</td></tr>
+          <tr><td>Materials</td><td>Absorb radar energy</td></tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
