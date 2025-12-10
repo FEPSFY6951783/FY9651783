@@ -61,10 +61,13 @@
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
     const IntroductionCount = displayWordCount("Introduction");
+      const IntroductionCount1 = displayWordCount("Intro1");
+      const IntroductionCount2 = displayWordCount("Intro2");
+      const IntroductionCount3 = displayWordCount("Intro3");
     const AbstractCount = displayWordCount("Abstract");
       const RadarCount = displayWordCount("Radar And Detection");
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + AbstractCount + RadarCount;
+    const totalWordCount = IntroductionCount + IntroductionCount1 + IntroductionCount2 + IntroductionCount3 + AbstractCount + RadarCount;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
