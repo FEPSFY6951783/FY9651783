@@ -71,9 +71,14 @@
     const RadarCount2 = displayWordCount("Radar2");
     const RadarCount3 = displayWordCount("Radar3");
     const RadarCount4 = displayWordCount("Radar4");
-
+      const EngineeringCount = displayWordCount("Engineering");
+      const EngineeringCount1 = displayWordCount("Engineering1");
+      const EngineeringCount2 = displayWordCount("Engineering2");
+      const EngineeringCount3 = displayWordCount("Engineering3");
+      const EngineeringCount4 = displayWordCount("Engineering4");
+      
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + IntroductionCount1 + IntroductionCount2 + IntroductionCount3 + AbstractCount + AbstractCount1 + RadarCount + RadarCount1 + RadarCount2 + RadarCount3 + RadarCount4;
+    const totalWordCount = IntroductionCount + IntroductionCount1 + IntroductionCount2 + IntroductionCount3 + AbstractCount + AbstractCount1 + RadarCount + RadarCount1 + RadarCount2 + RadarCount3 + RadarCount4 + EngineeringCount + EngineeringCount1 + EngineeringCount2 + EngineeringCount3 + EngineeringCount4;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
